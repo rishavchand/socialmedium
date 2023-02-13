@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-height: 200vh;
+}
+
+.navigationbar{
+    display: flex;
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.logo{
+    position: relative;
+    left: 50px;
+}
+
+.logoname{
+    color: white;
+    position: relative;
+    
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    right: 140px;
+
+}
+
+ul{
+    display: inline-flex;
+    list-style: none
+
+}
+
+ul li a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    padding: 17px;
+    left: 68px;
+    
+}
+
+.loginbutton {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid white;
+    padding: 5px 20px;
+    height: 24px;
+    right: 60px;
+}
+
+.loginbutton:hover{
+    background-color: rgb(250, 54, 133);
+    cursor: pointer;
+}
